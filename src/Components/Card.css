@@ -1,6 +1,74 @@
 .card-container {
+    position: relative;
     display: flex;
+    flex-direction: column;
     width: 288px;
     height: 280px;
-    border: 3px solid green;
+    margin: 12px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 0px 0px 1px #C0C0C0; 
+    box-shadow: 0px 0px 0px 1px #C0C0C0;
+}
+
+.card-container.active-card {
+    -webkit-box-shadow: 0px 0px 7px 4px #C0C0C0; 
+    box-shadow: 0px 0px 7px 4px #C0C0C0;
+}
+
+.card-image-container {
+    position: relative;
+    width: 288px;
+    height: 164px;
+    overflow: hidden;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    flex-shrink: 0;
+}
+
+.card-image-container > img {
+    width: 288px;
+    height: 164px;
+    object-fit: cover;
+}
+
+.card-body-container {
+    display: flex;
+    margin: 10px;
+}
+
+.card-body-info-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.view-details-link {
+    color: #0266D2;
+    font-weight: 600;
+    text-decoration: none;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.stat-icon {
+    color: gray;
+    font-size: 10px;
+    margin-right: 3px;
+}
+
+.stat {
+    font-weight: 800;
+    font-size: 11px;
+    margin-right: 5px;
+}
+
+.card-body-coach-container {
+    display: flex;
 }

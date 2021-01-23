@@ -3,4 +3,27 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: rgba(0,0,0,.5);
+    width: 112px;
+    height: 100%;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.card-image-overlay-big-text {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.card-image-overlay-med-text {
+    font-weight: 500;
+    font-size: 11px;
+}
+
+.card-image-icon {
+    font-size: 25px;
+    margin-top: 5px;
 }

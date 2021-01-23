@@ -52,7 +52,7 @@ const mockWorkouts = [
         workouts: 12
     },
     {
-        thumbUri: '/images/charles-rase-thumb.jpg',
+        thumbUri: '/images/charles-race-thumb.jpg',
         title: 'Charles Race, Boston, Massachusetts',
         meta: {
             time: '36:22',
