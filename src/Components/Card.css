@@ -8,6 +8,7 @@
     border-radius: 6px;
     -webkit-box-shadow: 0px 0px 0px 1px #C0C0C0; 
     box-shadow: 0px 0px 0px 1px #C0C0C0;
+    transition: box-shadow 0.1s ease-in-out;
 }
 
 .card-container.active-card {

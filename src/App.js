@@ -10,11 +10,11 @@ function App() {
     getWorkouts()
       .then(workouts => setWorkouts(workouts))
   }, []);
-  
+
   return (
-    <div className="App">
+    <main className="App">
       {workouts.map((workout, index) => <Card workout={workout} key={index} />) }
-    </div>
+    </main>
   );
 }
 

@@ -4,7 +4,7 @@ import './CoachIcon.css';
 export default (props) => {
     return (
         <div className="coach-icon-container">
-            <img className="coach-icon" src={props.imageUri} />
+            <img className="coach-icon" src={props.imageUri} alt="coach image"/>
         </div>
     )
 }

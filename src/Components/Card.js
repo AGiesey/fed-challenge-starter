@@ -19,7 +19,7 @@ export default (props) => {
     return (
         <div className={`card-container ${isActive && "active-card"}`} onClick={toggleActive}>
             <div className="card-image-container">
-                <img src={thumbUri} />
+                <img src={thumbUri} alt="program image"/>
                 {
                     workouts && <CardImageOverlay workouts={workouts} />
                 }
